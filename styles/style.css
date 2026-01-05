@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* Shared Common Style start */
+.common-margin {
+  margin: 137px 150px;
+}
+.primary-color {
+  color: #4e47ff;
+}
+.primary-btn {
+  background-color: #4e47ff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.btn-hover:hover {
+  background-color: #34eb86;
+  color: black;
+}
+.center{
+    text-align: center;
+}
+.pointer{
+    cursor: pointer;
+}
+/* shared common style end */
+
+
+/* nav section start */
+.header {
+  height: 698px;
+  background-image: url(../Assets/Hero-bg.png);
+}
+.navber {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 150px 0 150px;
+  margin-bottom: 200px;
+}
+.nav-title {
+  font-size: 34px;
+  font-weight: bold;
+}
+.nav-button {
+  width: 130px;
+  height: 48px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.navber ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navber ul li {
+  list-style: none;
+}
+.navber li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header-title{
+    width: 905px;
+    height: 227px;
+    margin: 0 auto;
+}
+.header-title h1{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+}
+.header-button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+}
