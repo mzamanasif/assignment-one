@@ -180,3 +180,36 @@
 .user-id-img img{
   border-radius: 20px;
 }
+
+
+/* focus section start */
+.focus{
+  height: 700px;
+  background-color: #F2EDED;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+.focus-title{
+  font-size: 50px;
+  font-weight: bold;
+  color: #252432;
+  padding-top: 70px;
+}
+.focus-description{
+  font-size: 16px;
+  color: #5a5a5c;
+  padding: 20px 0;
+}
+.focus-button{
+  margin: 0 auto;
+  width: 150px;
+}
+.focus-banner{
+  width: 840px;
+  height: 365px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.focus-banner img{
+  border-radius: 48px;
+}
